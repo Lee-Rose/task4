@@ -5,7 +5,7 @@ print('')
 with open ('my_id.txt', 'w', encoding='utf-8') as file:
     file.write(f'My ID:\n')
     file.write('Name: Liya\n')
-    file. write('LastName: Yoelson\n')
+    file.write('LastName: Yoelson\n')
     file.write('Phone number: 0506470815\n')
 
 print('')
@@ -96,7 +96,7 @@ class Rectangle:
 
 
     def area_rectangle(self):
-        area =self.length * self.width
+        area = self.length * self.width
         print(f'Area of a rectangle: {area}')
 
 rec1 = Rectangle(5,10)
