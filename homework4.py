@@ -33,8 +33,7 @@ def num_lunes():
     N = 3
     with open('filename.txt') as file:
         for i in range(N):
-            line = next(file).strip()
-            print(line)
+            print(file.readline().strip())
 
 num_lunes()
 
